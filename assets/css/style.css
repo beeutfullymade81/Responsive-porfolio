@@ -1,0 +1,241 @@
+*{
+    box-sizing: border-box;
+    border-color: #cccccc;
+    background: white;
+    font-family: 'Alegreya', serif;
+}
+
+    img {
+        border: 1px solid #ddd;
+        border-radius: 4px;
+        padding: 5px;
+        width: 200px;
+        height: 200px;
+    }
+    
+  
+    img:hover {
+        box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
+}
+
+.navbar-brand {
+    color: #4aaaa5;
+}
+
+.page-header {
+    padding-top: 40px;
+}
+
+}
+html, body {
+    height: 100%;
+    width: 960px;
+    background: url('../images/spiration.png')
+}
+
+img.mainphoto {
+    width: 350px;
+    height: 350px;
+    float: left;
+    padding: 5px;
+
+}
+
+button {
+	background: #4aaaa5;
+	border: 0px;
+	height: 45px;
+	width: 120px;
+	color: white;
+	font-size: 17px;
+    margin-top: 5px;
+}
+
+footer {
+    clear: both;
+    background: #666666;
+    color: white;
+    text-align: center;
+    padding-top: 25px;
+    font-size: 10px;
+    margin-top: 90px;
+    height: 90px;
+    border-top: 10px solid #4aaaa5;
+    position: relative;
+
+
+}
+
+.p {
+    color: #777777;
+    float: right;
+    padding: 5px;
+}
+
+.maincontent {
+    padding: 20px;
+    margin-top: 40px;
+    border: 1px solid #cccccc;
+    width: 650px;
+    height: 500px;
+    float: left;
+    margin-bottom: 40px;
+    
+}
+.contactme {
+    padding: 20px;
+    margin-top: 40px;
+    border: 1px solid #cccccc;
+    width: 650px;
+    height: 500px;
+    float: left;
+    margin-bottom: 40px;
+}
+
+.contactheader {
+    clear: both;
+    padding-top: 40px;
+    border-bottom: 3px solid #cccccc;
+    
+}
+
+h2,h3 {
+    color: #4aaaa5;
+}
+
+h3 {
+    text-align: center;
+}
+
+img.github {
+    width: 50px;
+    height: 50px;
+
+}
+
+img.linkedin {
+    width: 50px;
+    height: 50px;
+}
+
+img.stack {
+    width: 50px;
+    height: 50px;
+
+}
+
+
+
+input {
+    width: 75%;
+}
+
+.messaged {
+    height: 205px;
+}
+.about {
+    padding: 30px;
+    margin-right: 10px;
+    color: #777777;
+
+}
+
+.contact {
+    padding: 5px;
+    color: #777777;
+
+}
+
+.portfolio{
+    padding: 5px;
+    margin-left: 10px;
+    color: #777777;
+}
+
+}
+.porfoliobody {
+    padding: 20px;
+   
+    border: 1px solid #cccccc;
+    width: 650px;
+    height: 850px;
+    clear: both;
+  
+
+}
+
+.portfoliophoto {
+    width: 225px;
+    height: 175px;
+}
+
+.labels {
+    box-sizing: border-box;
+	background: #4aaaa5;
+	color: white;
+	height: 45px;
+	padding-top: 15px;
+	width: 100%;
+	text-align: center;
+    font-size: 15px;
+    position: relative;
+    top: -75px;
+}
+.portfolio1 {
+    width: 225px;
+    z-index: 10;
+    
+
+}
+
+.portfolio2 {
+    width: 225px;
+    z-index: 10;
+ 
+    margin-left: 95px;
+}
+
+.portfolio3 {
+    width: 225px;
+    z-index: 10;
+   
+}
+.portfolio4 {
+    width: 225px;
+    z-index: 10;
+
+    margin-left: 95px;
+
+}
+.portfolio5 {
+    width: 225px;
+    z-index: 10;
+}
+
+.portfolioHeader {
+    clear: both;
+    padding-top: 80px;
+    border-bottom: 3px solid #cccccc;
+ 
+    
+}
+ @media only screen and (max-width: 980px) 
+ {
+        body {
+            background-color: lightblue;
+        }
+    }
+    
+    @media only screen and (max-width: 768px)
+     {
+        body {
+            background-color: lightblue;
+        }
+    }
+
+    @media only screen and (max-width: 640px) 
+    {
+        body {
+            background-color: lightblue;
+        }
+    }
